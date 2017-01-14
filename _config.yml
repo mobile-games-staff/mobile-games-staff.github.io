@@ -15,3 +15,5 @@ exclude:
   - CNAME
 
 theme: jekyll-theme-cayman
+
+google_analytics: UA-90345878-1
