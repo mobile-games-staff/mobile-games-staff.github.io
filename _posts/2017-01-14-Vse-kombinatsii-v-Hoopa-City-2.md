@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Все комбинации зданий в Hoopa City 2
 published: true
 ---
