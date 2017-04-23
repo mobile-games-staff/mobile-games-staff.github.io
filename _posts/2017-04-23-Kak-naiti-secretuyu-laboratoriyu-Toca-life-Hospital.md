@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Как найти секретную лабораторию в Toca Life Hospital
+title: Найти секретную лабораторию в Toca Hospital
 published: true
 ---
 
