@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+<head>
     <meta charset="UTF-8">
     <title>{{ page.title | default: site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'> -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <meta name="yandex-verification" content="05efb1245b42609f" />
-    <meta name="google-site-verification" content="2HUwtxGSh1Y7VIu7WVqPhRqRbONxsgQHh1XX-niuEk8" />
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">{{ site.title }}</h1>
-      <h2 class="project-tagline">{{ site.description }}</h2>
-        <a href="https://mobile-games-staff.github.io" class="btn">На главную</a>
-    </section>
+    <meta name="yandex-verification" content="05efb1245b42609f"/>
+    <meta name="google-site-verification" content="2HUwtxGSh1Y7VIu7WVqPhRqRbONxsgQHh1XX-niuEk8"/>
+</head>
+<body>
+<section class="page-header">
+    <h1 class="project-name">{{ site.title }}</h1>
+    <h2 class="project-tagline">{{ site.description }}</h2>
+    <a href="https://mobile-games-staff.github.io" class="btn">На главную</a>
+</section>
 
-    <section class="main-content">
-      <h1>{{ page.title }} </h1>
-      {{ content }}
+<section class="main-content">
+    <h1>{{ page.title }} </h1>
+    {{ content }}
 
-      <footer class="site-footer">
+    <footer class="site-footer">
         {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+        <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a
+                href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
         {% endif %}
         <span class="site-footer-credits">Побольше вам приятных и добрых игр!</span>
-      </footer>
-    </section>
+    </footer>
+</section>
 
-    {% if site.google_analytics %}
-      <script type="text/javascript">
+{% if site.google_analytics %}
+<script type="text/javascript">
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-      </script>
-      <script type="text/javascript">
+
+</script>
+<script type="text/javascript">
         try {
           var pageTracker = _gat._getTracker("{{ site.google_analytics }}");
         pageTracker._trackPageview();
         } catch(err) {}
-      </script>
-    {% endif %}
-  </body>
+
+</script>
+{% endif %}
+</body>
 </html>
