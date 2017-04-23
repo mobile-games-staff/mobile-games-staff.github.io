@@ -20,13 +20,13 @@ published: true
 - справа от стиральной машины, на верхнем ряду тележки,
 - справа от радио, на полке.
 
-![Кнопка за машиной скорой помощи](images/toca-hospital-secret-lab-4.png)
+![Кнопка за машиной скорой помощи](../../../images/toca-hospital-secret-lab-4.png)
 
-![Кнопка за монитором диспетчера](images/toca-hospital-secret-lab-1.png)
+![Кнопка за монитором диспетчера](../../../images/toca-hospital-secret-lab-1.png)
 
-![Кнопки в шкафу и справа от стиральной машины](images/toca-hospital-secret-lab-3.png)
+![Кнопки в шкафу и справа от стиральной машины](../../../images/toca-hospital-secret-lab-3.png)
 
-![Кнопка на полке справа от радио](images/toca-hospital-secret-lab-2.png)
+![Кнопка на полке справа от радио](../../../images/toca-hospital-secret-lab-2.png)
 
 В правом конце этажа есть установка с пятью лампочками: они загораются, когда вы нажимаете на кнопки.
 
