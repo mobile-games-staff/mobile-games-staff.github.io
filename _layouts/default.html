@@ -11,37 +11,38 @@
     <meta name="google-site-verification" content="2HUwtxGSh1Y7VIu7WVqPhRqRbONxsgQHh1XX-niuEk8"/>
 </head>
 <body>
-<section class="page-header">
-    <h1 class="project-name">{{ site.title }}</h1>
-    <h2 class="project-tagline">{{ site.description }}</h2>
-    <a href="https://mobile-games-staff.github.io" class="btn">На главную</a>
-</section>
+    <section class="page-header">
+        <h1 class="project-name">{{ site.title }}</h1>
+        <h2 class="project-tagline">{{ site.description }}</h2>
+        <a href="https://mobile-games-staff.github.io" class="btn">На главную</a>
+    </section>
 
-<section class="main-content">
-    <h1>{{ page.title }} </h1>
-    {{ content }}
+    <section class="main-content">
+        <h1>{{ page.title }} </h1>
+        {{ content }}
 
-    <footer class="site-footer">
-        {% if site.github.is_project_page %}
-        <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a
-                href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
-        <span class="site-footer-credits">Побольше вам приятных и добрых игр!</span>
-    </footer>
-</section>
-{% if site.google_analytics %}
-<script type="text/javascript">
-        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        <footer class="site-footer">
+            {% if site.github.is_project_page %}
+            <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a
+                    href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+            {% endif %}
+            <span class="site-footer-credits">Побольше вам приятных и добрых игр!</span>
+        </footer>
+    </section>
 
-</script>
-<script type="text/javascript">
-        try {
-          var pageTracker = _gat._getTracker("{{ site.google_analytics }}");
-        pageTracker._trackPageview();
-        } catch(err) {}
+    {% if site.google_analytics %}
+    <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 
-</script>
-{% endif %}
+    </script>
+    <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("{{ site.google_analytics }}");
+            pageTracker._trackPageview();
+            } catch(err) {}
+
+    </script>
+    {% endif %}
 </body>
 </html>
